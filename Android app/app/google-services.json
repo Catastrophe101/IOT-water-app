@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "661020393744",
+    "firebase_url": "https://water-app-af594.firebaseio.com",
+    "project_id": "water-app-af594",
+    "storage_bucket": "water-app-af594.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661020393744:android:26d0e8f75549ab3f",
+        "android_client_info": {
+          "package_name": "com.example.nishi.buildingmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661020393744-9lsdovr0laof2euim2snarhh9rpahds3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nishi.buildingmanager",
+            "certificate_hash": "6bc35ba7f01205e6002d83c695aa9095ac5819a9"
+          }
+        },
+        {
+          "client_id": "661020393744-ntsh23tuue06qgonn4rvt7ou21k9al00.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "661020393744-ntsh23tuue06qgonn4rvt7ou21k9al00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxm-8QsjHOoY4pkFqd-ARSmsTKpsvO1i4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661020393744-ntsh23tuue06qgonn4rvt7ou21k9al00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661020393744:android:478afa3d705eb820",
+        "android_client_info": {
+          "package_name": "com.example.nishi.water_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661020393744-338na2ljku5vrpkc7agm063bh61eju4b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nishi.water_app",
+            "certificate_hash": "6bc35ba7f01205e6002d83c695aa9095ac5819a9"
+          }
+        },
+        {
+          "client_id": "661020393744-ntsh23tuue06qgonn4rvt7ou21k9al00.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "661020393744-ntsh23tuue06qgonn4rvt7ou21k9al00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxm-8QsjHOoY4pkFqd-ARSmsTKpsvO1i4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661020393744-ntsh23tuue06qgonn4rvt7ou21k9al00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

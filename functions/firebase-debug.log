@@ -1,0 +1,66 @@
+[debug] [2018-06-01T09:16:29.953Z] ----------------------------------------------------------------------
+[debug] [2018-06-01T09:16:29.984Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nishi\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-06-01T09:16:29.984Z] CLI Version:   3.18.5
+[debug] [2018-06-01T09:16:29.984Z] Platform:      win32
+[debug] [2018-06-01T09:16:29.984Z] Node Version:  v8.11.1
+[debug] [2018-06-01T09:16:29.999Z] Time:          Fri Jun 01 2018 14:46:29 GMT+0530 (India Standard Time)
+[debug] [2018-06-01T09:16:29.999Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-01T09:16:30.115Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-01T09:16:30.116Z] > authorizing via signed-in user
+[debug] [2018-06-01T09:16:30.117Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-06-01T09:16:30.117Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/MvzS5OxXPEhRLZgnIdKJnP0kAWn7_CEtHqghRj3tt4Q',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Jun 01 2018 14:46:30 GMT+0530 (India Standard Time)
+[debug] [2018-06-01T09:16:34.724Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-01T09:16:34.767Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/water-app-af594  
+  
+ Fri Jun 01 2018 14:46:34 GMT+0530 (India Standard Time)
+[debug] [2018-06-01T09:16:38.365Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-01T09:16:38.365Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/water-app-af594/tokens  
+  
+ Fri Jun 01 2018 14:46:38 GMT+0530 (India Standard Time)
+[debug] [2018-06-01T09:16:39.656Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'water-app-af594'...
+[info] 
+[info] i  deploying database, firestore, functions
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint
+[info] +  functions: Finished running predeploy script.
+[info] i  database: checking rules syntax...
+[debug] [2018-06-01T09:19:18.111Z] >>> HTTP REQUEST PUT https://water-app-af594.firebaseio.com/.settings/rules.json?dryRun=true  
+ {
+  "rules": {
+    ".read": true,
+    ".write": true
+  }
+}
+ 
+ Fri Jun 01 2018 14:49:18 GMT+0530 (India Standard Time)
+[debug] [2018-06-01T09:19:40.376Z] Error: getaddrinfo ENOTFOUND water-app-af594.firebaseio.com water-app-af594.firebaseio.com:443
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND water-app-af594.firebaseio.com water-app-af594.firebaseio.com:443
+[debug] [2018-06-01T09:21:05.670Z] ----------------------------------------------------------------------
+[debug] [2018-06-01T09:21:05.670Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nishi\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-06-01T09:21:05.670Z] CLI Version:   3.18.5
+[debug] [2018-06-01T09:21:05.670Z] Platform:      win32
+[debug] [2018-06-01T09:21:05.670Z] Node Version:  v8.11.1
+[debug] [2018-06-01T09:21:05.670Z] Time:          Fri Jun 01 2018 14:51:05 GMT+0530 (India Standard Time)
+[debug] [2018-06-01T09:21:05.670Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-01T09:21:05.686Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-01T09:21:05.686Z] > authorizing via signed-in user
+[debug] [2018-06-01T09:21:05.686Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/water-app-af594  
+  
+ Fri Jun 01 2018 14:51:05 GMT+0530 (India Standard Time)
+[debug] [2018-06-01T09:21:05.717Z] Error: getaddrinfo ENOTFOUND admin.firebase.com admin.firebase.com:443
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND admin.firebase.com admin.firebase.com:443
